@@ -65,10 +65,11 @@ function setup() {
         isStatic: true,
 
     });
+    
     wallLeft = Bodies.rectangle(0, height /2, 10, height, {
         isStatic: true,
     });
-    
+
     wallRight = Bodies.rectangle(width, height /2, 10, height, {
         isStatic: true,
     });
