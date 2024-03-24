@@ -81,6 +81,7 @@ function draw() {
     background("#111111");
     Engine.update(engine);
     for(let word of words) {
+        
         word.show();
     }
 }
