@@ -59,7 +59,7 @@ let wordsToDisplay = [
 
 function setup() {
     createCanvas(windowWidth, windowHeight - 60);
-    
+
     engine = Engine.create();
 
     ground = Bodies.rectangle(width/2, height -20, width, 10, {
@@ -94,6 +94,7 @@ class Word {
     constructor(x, y, word) {
         this.body = Bodies.rectangle(x, y, word.length * 20, 40);
         this.word = word;
+        
         //for random colors
         this.color = '#' + Math.floor(Math.random()*16777215).toString(16);
         World.add(engine.world, this.body);
