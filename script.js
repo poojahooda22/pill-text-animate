@@ -5,6 +5,7 @@ function preload() {
     customFont = loadFont("./MonaspaceNeon-Bold.ttf");
 }
 
+//took engine, world, bodies and body from matter.js
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
