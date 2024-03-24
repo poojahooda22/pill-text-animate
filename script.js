@@ -26,14 +26,7 @@ let wordsToDisplay = [
     "YouTube",
     "WhatsApp",
     "Facebook",
-    "Instagram",
-    "Twitter",
-    "Snapchat",
-    "LinkedIn",
-    "Pinterest",
-    "Reddit",
-    "TikTok",
-    "YouTube",
+    
     "WhatsApp",
     "Facebook",
     "Instagram",
@@ -78,7 +71,7 @@ function setup() {
     World.add(engine.world, [ground, wallLeft, wallRight]);
 
     for(let i =0; i< wordsToDisplay.length; i++) {
-        
+
         words.push(new Word(random(width), -200, wordsToDisplay[i]));
     }
 }
