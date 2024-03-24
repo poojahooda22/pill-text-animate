@@ -26,7 +26,6 @@ let wordsToDisplay = [
     "YouTube",
     "WhatsApp",
     "Facebook",
-    
     "WhatsApp",
     "Facebook",
     "Instagram",
