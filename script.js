@@ -122,7 +122,7 @@ function mouseMoved() {
             Body.applyForce(
                 word.body,
                 {x: word.body.position.x, y: word.body.position.y},
-                {x: random(-0.3, 0.2), y: random(-0.2, 0.2)}
+                {x: random(-0.3, 0.3), y: random(-0.2, 0.2)}
             );
         }
     }
