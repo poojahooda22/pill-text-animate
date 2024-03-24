@@ -14,6 +14,7 @@ const Body = Matter.Body;
 let engine;
 let words = [];
 let ground, wallLeft, wallRight;
+
 let wordsToDisplay = [
     "Facebook",
     "Instagram",
