@@ -109,6 +109,7 @@ class Word {
         rectMode(CENTER);
 
         //apply  the color
+        
         fill(this.color); 
         strokeWeight(0);
         rect(0, 0, this.word.length * 20, 60, 30);
