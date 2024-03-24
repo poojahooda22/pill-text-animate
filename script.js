@@ -107,6 +107,7 @@ class Word {
         translate(pos.x, pos.y);
         rotate(angle);
         rectMode(CENTER);
+        
         //apply  the color
         fill(this.color); 
         strokeWeight(0);
