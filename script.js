@@ -97,7 +97,6 @@ class Word {
     show() {
         let pos = this.body.position;
         let angle = this.body.angle;
-
         push();
         translate(pos.x, pos.y);
         rotate(angle);
