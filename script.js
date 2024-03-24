@@ -52,8 +52,7 @@ let wordsToDisplay = [
     "Pinterest",
     "Reddit",
     "TikTok",
-    "YouTube",
-    "WhatsApp",
+
 ]
 
 function setup() {
