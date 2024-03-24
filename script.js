@@ -124,10 +124,11 @@ class Word {
 }
 
 function mouseMoved() {
-    
+
     for(let word of words) {
         if(dist(mouseX, mouseY, word.body.position.x, word.body.position.y) 
             < 60) {
+        
             Body.applyForce(
                 word.body,
                 {x: word.body.position.x, y: word.body.position.y},
