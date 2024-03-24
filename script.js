@@ -103,8 +103,8 @@ class Word {
         rotate(angle);
         rectMode(CENTER);
         fill(this.color);
-        stroke("#000000");
-        strokeWeight(1);
+        
+        
         rect(0, 0, this.word.length * 20, 60, 30);
         noStroke();
         textFont(customFont);
