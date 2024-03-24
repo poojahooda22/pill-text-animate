@@ -59,13 +59,14 @@ let wordsToDisplay = [
 
 function setup() {
     createCanvas(windowWidth, windowHeight - 60);
+    
     engine = Engine.create();
 
     ground = Bodies.rectangle(width/2, height -20, width, 10, {
         isStatic: true,
 
     });
-    
+
     wallLeft = Bodies.rectangle(0, height /2, 10, height, {
         isStatic: true,
     });
