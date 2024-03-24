@@ -78,6 +78,7 @@ function setup() {
     World.add(engine.world, [ground, wallLeft, wallRight]);
 
     for(let i =0; i< wordsToDisplay.length; i++) {
+        
         words.push(new Word(random(width), -200, wordsToDisplay[i]));
     }
 }
@@ -128,7 +129,7 @@ function mouseMoved() {
     for(let word of words) {
         if(dist(mouseX, mouseY, word.body.position.x, word.body.position.y) 
             < 60) {
-        
+
             Body.applyForce(
                 word.body,
                 {x: word.body.position.x, y: word.body.position.y},
