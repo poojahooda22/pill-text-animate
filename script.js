@@ -110,7 +110,7 @@ class Word {
         //apply  the color
         fill(this.color);
         stroke("#000000");
-        strokeWeight(1);
+        strokeWeight(0);
         rect(0, 0, this.word.length * 20, 60, 30);
         noStroke();
         textFont(customFont);
