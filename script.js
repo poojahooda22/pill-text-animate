@@ -33,6 +33,26 @@ let wordsToDisplay = [
     "TikTok",
     "YouTube",
     "WhatsApp",
+    "Facebook",
+    "Instagram",
+    "Twitter",
+    "Snapchat",
+    "LinkedIn",
+    "Pinterest",
+    "Reddit",
+    "TikTok",
+    "YouTube",
+    "WhatsApp",
+    "Facebook",
+    "Instagram",
+    "Twitter",
+    "Snapchat",
+    "LinkedIn",
+    "Pinterest",
+    "Reddit",
+    "TikTok",
+    "YouTube",
+    "WhatsApp",
 ]
 
 function setup() {
@@ -69,6 +89,7 @@ class Word {
     constructor(x, y, word) {
         this.body = Bodies.rectangle(x,y,word.length * 20, 40);
         this.word = word;
+        this.color = '#' + Math.floor(Math.random()*16777215).toString(16);
         World.add(engine.world, this.body);
     }
 
@@ -80,10 +101,10 @@ class Word {
         translate(pos.x, pos.y);
         rotate(angle);
         rectMode(CENTER);
-        fill(255);
+        fill(this.color);
         stroke("#000000");
         strokeWeight(1);
-        rect(0, 0, this.word.length * 20, 60, 40);
+        rect(0, 0, this.word.length * 20, 60, 30);
         noStroke();
         textFont(customFont);
         fill("#000000");
