@@ -38,7 +38,6 @@ let wordsToDisplay = [
     "Facebook",
     "WhatsApp",
     "Facebook",
-
     "LinkedIn",
     "Pinterest",
     "Reddit",
