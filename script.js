@@ -108,7 +108,7 @@ class Word {
         rect(0, 0, this.word.length * 20, 60, 30);
         noStroke();
         textFont(customFont);
-        fill("#333");
+        fill("#000");
         textSize(20);
         textAlign(CENTER, CENTER);
         text(this.word, 0, 0);
