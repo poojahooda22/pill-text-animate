@@ -87,7 +87,7 @@ function draw() {
 
 class Word {
     constructor(x, y, word) {
-        this.body = Bodies.rectangle(x, y,word.length * 20, 40);
+        this.body = Bodies.rectangle(x, y, word.length * 20, 40);
         this.word = word;
         //for random colors
         this.color = '#' + Math.floor(Math.random()*16777215).toString(16);
