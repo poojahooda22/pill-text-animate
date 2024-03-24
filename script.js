@@ -1,5 +1,6 @@
 let customFont;
 
+//add the font to the project
 function preload() {
     customFont = loadFont("./MonaspaceNeon-Bold.ttf");
 }
