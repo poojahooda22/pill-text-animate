@@ -119,10 +119,9 @@ class Word {
         textAlign(CENTER, CENTER);
         text(this.word, 0, 0);
         pop();
-        
+
     }
 }
-
 
 function mouseMoved() {
     for(let word of words) {
