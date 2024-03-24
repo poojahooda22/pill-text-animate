@@ -94,7 +94,7 @@ class Word {
     constructor(x, y, word) {
         this.body = Bodies.rectangle(x, y, word.length * 20, 40);
         this.word = word;
-        
+
         //for random colors
         this.color = '#' + Math.floor(Math.random()*16777215).toString(16);
         World.add(engine.world, this.body);
@@ -125,7 +125,8 @@ class Word {
 
 function mouseMoved() {
     for(let word of words) {
-        if(dist(mouseX, mouseY, word.body.position.x, word.body.position.y) < 60) {
+        if(dist(mouseX, mouseY, word.body.position.x, word.body.position.y) 
+        < 60) {
             Body.applyForce(
                 word.body,
                 {x: word.body.position.x, y: word.body.position.y},
